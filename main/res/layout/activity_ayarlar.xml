@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fadeScrollbars="false"
+    android:fillViewport="true"
+    android:scrollbarAlwaysDrawHorizontalTrack="true"
+    android:scrollbarStyle="insideOverlay">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.projects.ingilizcekelimecalis.Ayarlar">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="1dp"
+            android:background="@android:color/holo_red_dark" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bg_login"
+            android:text="@string/sfkelimecalis"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/holo_red_dark" />
+
+        <Switch
+            android:id="@+id/kcotomatikdinle"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:checked="false"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="@string/kcotodinle" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/holo_blue_dark" />
+
+        <Switch
+            android:id="@+id/kcotomatikekle"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:checked="false"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="@string/kcotokaydet" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/holo_blue_dark" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="1dp"
+            android:background="@android:color/holo_red_dark" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bg_login"
+            android:text="@string/sfkelimetesti"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/holo_red_dark" />
+
+        <Switch
+            android:id="@+id/ktotomatikdinle"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:checked="false"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="@string/ktotodinle" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/holo_blue_dark" />
+
+        <Switch
+            android:id="@+id/ktotomatikkaydet"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:checked="false"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="@string/ktotokaydet" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/holo_blue_dark" />
+
+        <Switch
+            android:id="@+id/ktbilmedigiotokaydet"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:checked="false"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="@string/ktotobilmedigimotokaydet" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/holo_blue_dark" />
+
+        <Switch
+            android:id="@+id/ktotomatikses"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:checked="false"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="@string/ktotosescal" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/holo_blue_dark" />
+
+        <Switch
+            android:id="@+id/ktotomatikgecis"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:checked="false"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="@string/ktotodigerinegec" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/holo_blue_dark" />
+
+
+        <LinearLayout
+            android:id="@+id/label"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal"
+            android:weightSum="6">
+
+            <TextView
+                android:id="@+id/sloptime_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:paddingLeft="10dp"
+                android:text="@string/surelabeltext" />
+
+            <TextView
+                android:id="@+id/suretext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:text="@string/baslangicms"
+                android:textAlignment="center" />
+        </LinearLayout>
+
+        <SeekBar
+            android:id="@+id/ktotomatikgecissure"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:max="10000"
+            android:progress="2000" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/holo_blue_dark" />
+
+    </LinearLayout>
+</ScrollView>

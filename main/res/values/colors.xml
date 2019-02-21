@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>-->
+
+    <color name="colorPrimary">#26ae90</color>
+    <color name="colorPrimaryDark">#26ae90</color>
+    <color name="colorAccent">#26ae90</color>
+
+    <color name="white">#ffffff</color>
+    <color name="bg_login">#26ae90</color>
+    <color name="bg_buton">#00796B</color>
+
+
+
+
+
+
+</resources><!--
+ <color name="materialmavi">#3395ff</color>
+    <color name="materialyesil">#20d2bb</color>
+
+ <color name="yanlis">#ff030c</color>
+    <color name="dogru">#022ede</color>
+
+<color name="year">#999999</color>
+<color name="title">#222222</color>
+
+    -->

@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">İngilizce Kelime Öğren</string>
+
+    <string name="internetyok">İnternet bağlantısı yok.</string>
+    <string name="hosgeldin">Hoşgeldin. Hemen ingilizce çalışmaya başlayabilirsin.</string>
+    <string name="backbutonmesaj">Uygulamanın geliştirilmesine yardımcı olmak için reklam  görmek ister misiniz?</string>
+    <string name="kelimeloading">Kelime getiriliyor...</string>
+    <string name="soruloading">Soru getiriliyor...</string>
+    <string name="urluygulama">https://play.google.com/store/apps/details?id=com.projects.ingilizcekelimecalis</string>
+    <string name="hakkindabaslik">İngilizce Kelime Çalış Hakkında</string>
+    <string name="hakkindaicerik">Bu uygulama ile veri tabanımızda bulunan binlerce kelimeyi öğrenebilir kelimeleri öğrenirken dinleyerek telaffuzunuzu geliştirebilirsiniz.\n\nAyrıca bu kelimelerle kelime testine girebilir kendinizi test edebilir ve test sonucunda analizinizi görebilirsiniz.\n\nHer türlü görüş ve önerileriniz için bizimle iletişime geçiniz.</string>
+    <string name="appsparametre">market://search?q=pub:Creative+APP</string>
+    <string name="appsurl">https://play.google.com/store/apps/developer?id=Creative+APP</string>
+    <string name="bilinmeyenhata">Hata oluştu. Tekrar deneyiniz.</string>
+    <string name="btnevet">Evet</string>
+    <string name="btnkapat">Kapat</string>
+    <string name="btnhayir">Hayır</string>
+    <string name="uygpaylas">Uygulamayı paylaş</string>
+    <string name="destek">Destek ver</string>
+    <string name="uyghakkinda">Uygulama hakkında</string>
+    <string name="ayarlar">Ayarlar</string>
+    <string name="kelimelerim">Kelimelerim</string>
+    <string name="uygulamalar">Uygulamalarımız</string>
+    <string name="katki">Katkıda bulun</string>
+    <string name="kelimetesti">Kelime Testi</string>
+    <string name="kelimecalis">Kelime Çalış</string>
+
+
+    <string name="reklamtipi">BANNER</string>
+    <string name="kelimecalisreklamust">ca-app-pub-8649097782427195/1107102739</string>
+    <string name="kelimecalisreklamalt">ca-app-pub-8649097782427195/7480939392</string>
+
+    <string name="kelimelerimreklamust">ca-app-pub-8649097782427195/7319010064</string>
+
+    <string name="kelimetestireklamust">ca-app-pub-8649097782427195/8608041003</string>
+    <string name="kelimetestireklamalt">ca-app-pub-8649097782427195/4640875837</string>
+
+    <string name="kelimetestbitirgecis">ca-app-pub-8649097782427195/5650705176</string>
+
+    <string name="anasayfagecis">ca-app-pub-8649097782427195/6551001104</string>
+    <string name="anasayfaalt">ca-app-pub-8649097782427195/8877959156</string>
+    <string name="anasayfaust">ca-app-pub-8649097782427195/6251795816</string>
+
+    <string name="ayarreset">Ayarları Sıfırla</string>
+    <string name="ayarreseticerik">Tüm ayarlar sıfırlanacak. Emin misiniz?</string>
+
+    <string name="kopyala">Panoya kopyalandı.</string>
+    <string name="ceviripaylas">Kelimeyi paylaş</string>
+    <string name="ingilizce">İngilizce</string>
+    <string name="turkce">Türkçe</string>
+    <string name="eklendi">Kelimelerine eklendi.</string>
+    <string name="eklenmedi">Kelimelerinde var.</string>
+    <string name="kelimetest">İngilizce Kelime Testi</string>
+    <string name="tumunusil">Tümünü Sil</string>
+    <string name="tumunusilicerik">Kaydettiğiniz tüm kelimeler silinecek emin misiniz?</string>
+    <string name="tumusilindi">Kaydettiğiniz tüm kelimeler silindi.</string>
+    <string name="trkarsilik"> kelimesinin türkçe karşılığı nedir?</string>
+    <string name="cevap">Cevap</string>
+    <string name="sinavbitir">Sınavı Bitir</string>
+    <string name="yenisoru">Yeni Soru</string>
+    <string name="kelimelereekle">Kelimelerime Ekle</string>
+    <string name="yenikelimegetir">Yeni Kelime Getir</string>
+
+    <string name="sfkelimecalis">Kelime Çalış Sayfası</string>
+    <string name="kcotodinle">Her kelimeyi otomatik olarak dinle</string>
+    <string name="kcotokaydet">Her kelimeyi otomatik olarak kelimelerime kaydet</string>
+
+    <string name="sfkelimetesti">Kelime Testi Sayfası</string>
+    <string name="ktotodinle">Sorulan her kelimeyi otomatik olarak dinle</string>
+    <string name="ktotokaydet">Doğru bildiğim kelimeyi otomatik olarak kelimelerime kaydet</string>
+    <string name="ktotobilmedigimotokaydet">Bilemediğim kelimeyi otomatik olarak kelimelerime kaydet</string>
+    <string name="ktotosescal">Soruyu işaretledikden sonra otomatik olarak ses çal</string>
+    <string name="ktotodigerinegec">Soruyu işaretledikden sonra otomatik olarak diğer soruya geç</string>
+
+    <string name="surelabeltext">Otomatik olarak diğer soruya geçme süresi</string>
+    <string name="baslangicms">2000 ms</string>
+
+    <string name="sayfahakkinda">Kelimelerim hakkinda</string>
+    <string name="sayfahakkindaicerik">Kelimelere tıklayarak ingilizce okunuşunu dinleyebilirsiniz.\n\nKelimelere uzunca basarak kelimenin menüsüne ulaşabilir ve buradan kelimeye işlemler uygulayabilirsiniz.\n\nArama butonu ile kelimelerinizi türkçe olarak arayabilirisiniz.</string>
+
+    <string name="sonuclarbaslik">Test Sonucu</string>
+    <string name="secimyapmadiniz">Seçim yapmadınız.</string>
+    <string name="secimyapbitir">Seçim yapıldıktan sonra testi bitirebilirsiniz.</string>
+    <string name="otoekle">Otomatik ekleniyor</string>
+
+    <string name="testsonucayrıntı">Test Sonucu Ayrıntıları</string>
+    <string name="dogrusayisi">Doğru Sayısı: </string>
+    <string name="yanlissayisi">Yanlış Sayısı: </string>
+    <string name="basariyuzdesi">Başarı Oranı: %</string>
+
+
+</resources>

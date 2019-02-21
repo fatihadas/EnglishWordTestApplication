@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/hakkinda"
+        android:icon="@drawable/infobeyaz"
+        android:orderInCategory="100"
+        android:title="@string/uyghakkinda"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/uygulamapaylaş"
+        android:orderInCategory="100"
+        android:title="@string/uygpaylas"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/storedaaç"
+        android:orderInCategory="100"
+        android:title="@string/destek"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/diğerapps"
+        android:orderInCategory="100"
+        android:title="@string/uygulamalar"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/katkıdabulun"
+        android:orderInCategory="100"
+        android:title="@string/katki"
+        app:showAsAction="never" />
+</menu>
